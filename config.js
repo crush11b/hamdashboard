@@ -72,13 +72,13 @@ const aIMG = [
     "https://radar.weather.gov/ridge/standard/KAKQ_loop.gif",
   ],
   [
-    "Weather Story",
-    "https://www.weather.gov/media/akq/briefings/LatestBriefing.pdf",
+    "Satellite
+    ",
+    "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/CONUS/EXTENT3/GOES16-CONUS-EXTENT3-625x375.gif",
   ],
   [
-    "ISS & RS-44 POSITION",
-    "https://www.heavens-above.com/orbitdisplay.aspx?icon=iss&width=600&height=300&mode=M&satid=25544",
-    "https://www.heavens-above.com/orbitdisplay.aspx?icon=default&width=600&height=300&mode=M&satid=44909",
+    "Tropical Outlook",
+    "https://www.nhc.noaa.gov/xgtwo/two_atl_0d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_2d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_7d0.png",
   ],
   [
     "",
