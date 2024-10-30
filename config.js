@@ -46,6 +46,13 @@ const aURL = [
     "1",
     "R",
   ],
+  [
+    "2196F3",
+    "Outlook",
+    "https://www.weather.gov/media/akq/briefings/LatestBriefing.pdf",
+    "1",
+    "R",
+  ],
 ];
 
 // Dashboard items
