@@ -58,11 +58,11 @@ const aIMG = [
   ["RADAR", "https://radar.weather.gov/ridge/standard/CONUS_loop.gif"],
   [
     "LOCAL RADAR",
-    "https://radar.weather.gov/ridge/standard/KNQA_loop.gif",
+    "https://radar.weather.gov/ridge/standard/KAKQ_loop.gif",
   ],
   [
-    "NOAA D-RAP",
-    "https://services.swpc.noaa.gov/images/animations/d-rap/global/d-rap/latest.png",
+    "Weather Story",
+    "https://www.weather.gov/media/akq/briefings/LatestBriefing.pdf",
   ],
   [
     "ISS & RS-44 POSITION",
