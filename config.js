@@ -33,7 +33,7 @@ const aIMG = [
   ["", "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/CONUS/EXTENT3/GOES16-CONUS-EXTENT3-625x375.gif"],
   ["", "https://www.nhc.noaa.gov/xgtwo/two_atl_0d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_2d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_7d0.png"],
   ["", "https://forecast.weather.gov/MapClick.php?lat=37.4006&lon=-77.4531"],
-  ["", "https://viewer.weather.noaa.gov/general#layers=42904+40090+41806+41793+41791+41792+41794+41783+42464+41782+41781+41609&x=-95.63825&y=38.77504&z=8.9&panel=legend"],
+  ["", "http://www.wpc.ncep.noaa.gov/basicwx/bwxloop_ter.html"],
   ["SATELLITE CGL", "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/cgl/EXTENT3/GOES16-CGL-EXTENT3-600x600.gif"],
   ["LIGHTNING", "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa"],
   ["YOUTUBE EXAMPLE", "iframe|https://www.youtube.com/embed/fzPFaXAV_2Y?autoplay=1&mute=1"],
