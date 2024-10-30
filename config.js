@@ -73,8 +73,7 @@ const aIMG = [
     "https://radar.weather.gov/ridge/standard/KAKQ_loop.gif",
   ],
   [
-    "Satellite
-    ",
+    "Satellite",
     "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/CONUS/EXTENT3/GOES16-CONUS-EXTENT3-625x375.gif",
   ],
   [
