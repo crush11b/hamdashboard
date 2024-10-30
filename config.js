@@ -35,7 +35,7 @@ const aURL = [
   [
     "2196F3",
     "WEATHER",
-    "https://www.wunderground.com/dashboard/pws/KVARICHM160/graph/2020-12-6/2020-12-6/daily",
+    "https://ambientweather.net/dashboard/bea6b10a09ad231317312d829b55f271",
     "1",
     "R",
   ],
