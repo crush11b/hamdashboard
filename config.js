@@ -26,7 +26,7 @@ const aURL = [
     "https://map.blitzortung.org/#6.89/37.412/-78.706",
     "1",
     "R",
-  ],
+  ], 
   ["2196F3", "PISTAR", "http://pi-star.local/", "1.2"],
   [
     "2196F3",
