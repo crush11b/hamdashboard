@@ -16,6 +16,7 @@ const aURL = [
     "1",
   ],
   ["2196F3", "DX CLUSTER", "https://dxcluster.ha8tks.hu/map/", "1"],
+  ["2196F3", "ISS Passes", "https://www.heavens-above.com/PassSummary.aspx?satid=25544&lat=37.4083&lng=-77.4591&loc=Unnamed&alt=0&tz=EST", "1"],
   ["2196F3", "PSK Reporter", "https://pskreporter.info/pskmap.html?preset&callsign=kq4evk&txrx=tx&timerange=900&distunit=miles&hideunrec=1&blankifnone=1&hidenight=1&showsnr=1&showlines=1&mapCenter=21.142679151889794,-38.46416127021992,3.56797574036891", "1"],
   ["2196F3", "APRS", "https://aprs.to/?center=37.4465,-77.4883&zoom=11", "1"],
   ["2196F3", "POTA", "https://pota.app/#/", "1"],
