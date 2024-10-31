@@ -17,7 +17,7 @@ const aURL = [
   ["2196F3", "POTA", "https://pota.app/#/", "1"],
   ["2196F3", "SOTA", "https://sotawatch.sota.org.uk/en/1", "1"],
   ["2196F3", "LIGHTNING", "https://map.blitzortung.org/#6.89/37.412/-78.706", "1", "R"],
-  ["2196F3", "PISTAR", "http://pi-star.local/", "1.2"],
+  ["2196F3", "PISTAR", "http://192.168.0.105", "1.2"],
   ["2196F3", "TIME.IS", "https://time.is/", "1", "R"],
   ["2196F3", "Outlook", "https://www.weather.gov/media/akq/briefings/LatestBriefing.pdf", "1", "R"], // Added missing comma here
   ["2196F3", "RADAR", "https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOm51bGwsImNlbnRlciI6Wy05Ni42ODMsMzguMDIxXSwibG9jYXRpb24iOm51bGwsInpvb20iOjUuNDE5MTY1MzQ1MTU0NDQ3fSwiYW5pbWF0aW5nIjpmYWxzZSwiYmFzZSI6InN0YW5kYXJkIiwiYXJ0Y2MiOmZhbHNlLCJjb3VudHkiOmZhbHNlLCJjd2EiOmZhbHNlLCJyZmMiOmZhbHNlLCJzdGF0ZSI6ZmFsc2UsIm1lbnUiOnRydWUsInNob3J0RnVzZWRPbmx5IjpmYWxzZSwib3BhY2l0eSI6eyJhbGVydHMiOjAuOCwibG9jYWwiOjAuNiwibG9jYWxTdGF0aW9ucyI6MC44LCJuYXRpb25hbCI6MC42fX0%3D", "1", "R"],
