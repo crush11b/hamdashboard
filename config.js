@@ -35,7 +35,7 @@ const aIMG = [
   ["Tomorrow", "https://www.weather.gov/images/akq/ghwo/SevereThunderstormsDay2.jpg", "https://www.weather.gov/images/akq/ghwo/ExcessiveRainfallDay2.jpg", "https://www.weather.gov/images/akq/ghwo/WindDay2.jpg", "https://www.weather.gov/images/akq/ghwo/FireWeatherDay2.jpg", "https://www.weather.gov/images/akq/ghwo/FrostFreezeDay2.jpg", "https://www.weather.gov/images/akq/ghwo/FogDay2.jpg", "https://www.weather.gov/images/akq/ghwo/SnowSleetDay2.jpg", "https://www.weather.gov/images/akq/ghwo/ExcessiveColdDay2.jpg"],
   ["SATELLITE CGL", "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/cgl/EXTENT3/GOES16-CGL-EXTENT3-600x600.gif"],   
   ["LIGHTNING", "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa"],
-  ["YOUTUBE EXAMPLE", "iframe|https://www.youtube.com/embed/fzPFaXAV_2Y?autoplay=1&mute=1"],
+  ["Kp Index Forecast", "https://spaceweather.gfz-potsdam.de/fileadmin/Kp-Forecast/KP_ENSEMBLE_LAST_PAGER_SWIFT.png"],
   ["WEBSITE EXAMPLE", "iframe|https://globe.adsbexchange.com/?airport=YYZ"],
   ["VIDEO EXAMPLE", "https://himawari8.nict.go.jp/movie/720/20240611_pifd.mp4"],
   ["HF PROPAGATION", "https://www.hamqsl.com/solar101vhf.php", "https://www.hamqsl.com/solar100sc.php", "https://www.hamqsl.com/solarpich.php"]
