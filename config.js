@@ -16,7 +16,6 @@ const aURL = [
   ["2196F3", "APRS", "https://aprs.to/?center=37.4465,-77.4883&zoom=11", "1"],
   ["2196F3", "POTA", "https://pota.app/#/", "1"],
   ["2196F3", "SOTA", "https://sotawatch.sota.org.uk/en/1", "1"],
-  ["2196F3", "WebSDR", "http://na5b.com:8901/", "1"],
   ["2196F3", "LIGHTNING", "https://map.blitzortung.org/#6.89/37.412/-78.706", "1", "R"],
   ["2196F3", "PISTAR", "http://pi-star.local/", "1.2"],
   ["2196F3", "TIME.IS", "https://time.is/", "1", "R"],
@@ -38,7 +37,7 @@ const aIMG = [
   ["", "https://www.nhc.noaa.gov/xgtwo/two_atl_0d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_2d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_7d0.png"],
   ["LIGHTNING", "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa"],
   ["Kp Index Forecast", "https://spaceweather.gfz-potsdam.de/fileadmin/Kp-Forecast/KP_ENSEMBLE_LAST_PAGER_SWIFT.png"],
-  ["", "https://solar.w5mmw.net"],
+  ["", "http://192.168.0.104:8081/live.html"],
   ["VIDEO EXAMPLE", "https://himawari8.nict.go.jp/movie/720/20240611_pifd.mp4"],
   ["HF PROPAGATION", "https://www.hamqsl.com/solar101vhf.php", "https://www.hamqsl.com/solar100sc.php", "https://www.hamqsl.com/solarpich.php"]
 ];
