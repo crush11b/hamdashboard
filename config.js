@@ -1,4 +1,4 @@
-const topBarCenterText = `KQ4EVK - FM17gj`;
+const topBarCenterText = "KQ4EVK - FM17gj";
 
 // Menu items
 // Structure: [color code, menu text, target link, scale factor, side (optional: "R" for Right)]
@@ -22,7 +22,6 @@ const aURL = [
   ["2196F3", "RADAR", "https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOm51bGwsImNlbnRlciI6Wy05Ni42ODMsMzguMDIxXSwibG9jYXRpb24iOm51bGwsInpvb20iOjUuNDE5MTY1MzQ1MTU0NDQ3fSwiYW5pbWF0aW5nIjpmYWxzZSwiYmFzZSI6InN0YW5kYXJkIiwiYXJ0Y2MiOmZhbHNlLCJjb3VudHkiOmZhbHNlLCJjd2EiOmZhbHNlLCJyZmMiOmZhbHNlLCJzdGF0ZSI6ZmFsc2UsIm1lbnUiOnRydWUsInNob3J0RnVzZWRPbmx5IjpmYWxzZSwib3BhY2l0eSI6eyJhbGVydHMiOjAuOCwibG9jYWwiOjAuNiwibG9jYWxTdGF0aW9ucyI6MC44LCJuYXRpb25hbCI6MC42fX0%3D", "1", "R"],
   ["2196F3", "WEATHER", "https://ambientweather.net/dashboard/bea6b10a09ad231317312d829b55f271", "1", "R"],
   ["2196F3", "WINDS", "https://www.ventusky.com/?p=37.84;-78.63;7&l=wind-10m", "1", "R"],
- 
 ];
 
 // Dashboard items
@@ -32,8 +31,8 @@ const aIMG = [
   ["", "https://radar.weather.gov/ridge/standard/KAKQ_loop.gif"],
   ["", "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/CONUS/EXTENT3/GOES16-CONUS-EXTENT3-625x375.gif"],
   ["", "https://www.nhc.noaa.gov/xgtwo/two_atl_0d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_2d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_7d0.png"],
-  ["Today", “https://www.weather.gov/images/akq/ghwo/SevereThunderstormsDay1.jpg”, “https://www.weather.gov/images/akq/ghwo/ExcessiveRainfallDay1.jpg”,  “https://www.weather.gov/images/akq/ghwo/WindDay1.jpg”, “https://www.weather.gov/images/akq/ghwo/FireWeatherDay1.jpg”, “https://www.weather.gov/images/akq/ghwo/FrostFreezeDay1.jpg”, “https://www.weather.gov/images/akq/ghwo/FogDay1.jpg”, “https://www.weather.gov/images/akq/ghwo/SnowSleetDay1.jpg”, “https://www.weather.gov/images/akq/ghwo/ExcessiveColdDay1.jpg”],
-  ["Tomorrow", “https://www.weather.gov/images/akq/ghwo/SevereThunderstormsDay2.jpg”, “https://www.weather.gov/images/akq/ghwo/ExcessiveRainfallDay2.jpg”,  “https://www.weather.gov/images/akq/ghwo/WindDay2.jpg”, “https://www.weather.gov/images/akq/ghwo/FireWeatherDay2.jpg”, “https://www.weather.gov/images/akq/ghwo/FrostFreezeDay2.jpg”, “https://www.weather.gov/images/akq/ghwo/FogDay2.jpg”, “https://www.weather.gov/images/akq/ghwo/SnowSleetDay2.jpg”, “https://www.weather.gov/images/akq/ghwo/ExcessiveColdDay2.jpg”],
+  ["Today", "https://www.weather.gov/images/akq/ghwo/SevereThunderstormsDay1.jpg", "https://www.weather.gov/images/akq/ghwo/ExcessiveRainfallDay1.jpg", "https://www.weather.gov/images/akq/ghwo/WindDay1.jpg", "https://www.weather.gov/images/akq/ghwo/FireWeatherDay1.jpg", "https://www.weather.gov/images/akq/ghwo/FrostFreezeDay1.jpg", "https://www.weather.gov/images/akq/ghwo/FogDay1.jpg", "https://www.weather.gov/images/akq/ghwo/SnowSleetDay1.jpg", "https://www.weather.gov/images/akq/ghwo/ExcessiveColdDay1.jpg"],
+  ["Tomorrow", "https://www.weather.gov/images/akq/ghwo/SevereThunderstormsDay2.jpg", "https://www.weather.gov/images/akq/ghwo/ExcessiveRainfallDay2.jpg", "https://www.weather.gov/images/akq/ghwo/WindDay2.jpg", "https://www.weather.gov/images/akq/ghwo/FireWeatherDay2.jpg", "https://www.weather.gov/images/akq/ghwo/FrostFreezeDay2.jpg", "https://www.weather.gov/images/akq/ghwo/FogDay2.jpg", "https://www.weather.gov/images/akq/ghwo/SnowSleetDay2.jpg", "https://www.weather.gov/images/akq/ghwo/ExcessiveColdDay2.jpg"],
   ["SATELLITE CGL", "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/cgl/EXTENT3/GOES16-CGL-EXTENT3-600x600.gif"],   
   ["LIGHTNING", "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa"],
   ["YOUTUBE EXAMPLE", "iframe|https://www.youtube.com/embed/fzPFaXAV_2Y?autoplay=1&mute=1"],
