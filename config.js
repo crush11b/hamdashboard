@@ -32,7 +32,7 @@ const aIMG = [
   ["", "https://radar.weather.gov/ridge/standard/KAKQ_loop.gif"],
   ["", "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/CONUS/EXTENT3/GOES16-CONUS-EXTENT3-625x375.gif"],
   ["", "https://www.nhc.noaa.gov/xgtwo/two_atl_0d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_2d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_7d0.png"],
-  ["", "https://www.weather.gov/images/akq/ghwo/SevereThunderstormsDay1.jpg"],
+  ["", “https://www.weather.gov/images/akq/ghwo/SevereThunderstormsDay1.jpg”, “https://www.weather.gov/images/akq/ghwo/ExcessiveRainfallDay1.jpg”,  “https://www.weather.gov/images/akq/ghwo/WindDay1.jpg”, “https://www.weather.gov/images/akq/ghwo/FrostFreezeDay1.jpg”, “https://www.weather.gov/images/akq/ghwo/FrostFreezeDay1.jpg”, “https://www.weather.gov/images/akq/ghwo/FogDay1.jpg”, “https://www.weather.gov/images/akq/ghwo/SnowSleetDay1.jpg”, “https://www.weather.gov/images/akq/ghwo/ExcessiveColdDay1.jpg”],
   ["", "https://www.weather.gov/images/akq/ghwo/VirginiaFrostFreezeDay1.jpgl", "https://www.weather.gov/images/akq/ghwo/VirginiaFogDay1.jpg"],
   ["SATELLITE CGL", "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/cgl/EXTENT3/GOES16-CGL-EXTENT3-600x600.gif"],   
   ["LIGHTNING", "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa"],
