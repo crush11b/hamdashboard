@@ -34,7 +34,7 @@ const aIMG = [
   ["", "https://www.nhc.noaa.gov/xgtwo/two_atl_0d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_2d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_7d0.png"],
   ["", "https://www.weather.gov/images/akq/ghwo/SevereThunderstormsDay1.jpg"],
   ["", "https://www.weather.gov/images/akq/ghwo/VirginiaFrostFreezeDay1.jpgl"],
-  ["SATELLITE CGL", "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/cgl/EXTENT3/GOES16-CGL-EXTENT3-600x600.gif"],
+  ["SATELLITE CGL", "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/cgl/EXTENT3/GOES16-CGL-EXTENT3-600x600.gif"],   
   ["LIGHTNING", "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa"],
   ["YOUTUBE EXAMPLE", "iframe|https://www.youtube.com/embed/fzPFaXAV_2Y?autoplay=1&mute=1"],
   ["WEBSITE EXAMPLE", "iframe|https://globe.adsbexchange.com/?airport=YYZ"],
