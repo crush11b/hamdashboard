@@ -36,7 +36,7 @@ const aIMG = [
   ["", "https://www.nhc.noaa.gov/xgtwo/two_atl_0d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_2d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_7d0.png"],
   ["LIGHTNING", "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa"],
   ["Kp Index Forecast", "https://spaceweather.gfz-potsdam.de/fileadmin/Kp-Forecast/KP_ENSEMBLE_LAST_PAGER_SWIFT.png"],
-  ["WebSDR", "http://na5b.com:8901/"],
+  ["WebSDR", "http://websdr.lumpkinschools.com"],
   ["VIDEO EXAMPLE", "https://himawari8.nict.go.jp/movie/720/20240611_pifd.mp4"],
   ["HF PROPAGATION", "https://www.hamqsl.com/solar101vhf.php", "https://www.hamqsl.com/solar100sc.php", "https://www.hamqsl.com/solarpich.php"]
 ];
