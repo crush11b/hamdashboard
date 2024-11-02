@@ -35,10 +35,10 @@ const aIMG = [
   ["", "https://www.weather.gov/images/akq/ghwo/SevereThunderstormsDay1.jpg", "https://www.weather.gov/images/akq/ghwo/ExcessiveRainfallDay1.jpg", "https://www.weather.gov/images/akq/ghwo/WindDay1.jpg", "https://www.weather.gov/images/akq/ghwo/FireWeatherDay1.jpg", "https://www.weather.gov/images/akq/ghwo/FrostFreezeDay1.jpg", "https://www.weather.gov/images/akq/ghwo/FogDay1.jpg", "https://www.weather.gov/images/akq/ghwo/SnowSleetDay1.jpg", "https://www.weather.gov/images/akq/ghwo/ExcessiveColdDay1.jpg"],
   ["", "https://www.weather.gov/images/akq/ghwo/SevereThunderstormsDay2.jpg", "https://www.weather.gov/images/akq/ghwo/ExcessiveRainfallDay2.jpg", "https://www.weather.gov/images/akq/ghwo/WindDay2.jpg", "https://www.weather.gov/images/akq/ghwo/FireWeatherDay2.jpg", "https://www.weather.gov/images/akq/ghwo/FrostFreezeDay2.jpg", "https://www.weather.gov/images/akq/ghwo/FogDay2.jpg", "https://www.weather.gov/images/akq/ghwo/SnowSleetDay2.jpg", "https://www.weather.gov/images/akq/ghwo/ExcessiveColdDay2.jpg"],
   ["", "https://www.nhc.noaa.gov/xgtwo/two_atl_0d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_2d0.png", "https://www.nhc.noaa.gov/xgtwo/two_atl_7d0.png"],
+  ["", "https://www.wpc.ncep.noaa.gov/basicwx/day0-7loop.html"],
   ["LIGHTNING", "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa"],
   ["Kp Index Forecast", "https://spaceweather.gfz-potsdam.de/fileadmin/Kp-Forecast/KP_ENSEMBLE_LAST_PAGER_SWIFT.png"],
-  ["", "http://192.168.0.104:8081/live.html"],
-  ["VIDEO EXAMPLE", "https://himawari8.nict.go.jp/movie/720/20240611_pifd.mp4"],
+  ["River Forecast", "https://water.noaa.gov/assets/styles/public/images/noaa-logo.png"],
   ["HF PROPAGATION", "https://www.hamqsl.com/solar101vhf.php", "https://www.hamqsl.com/solar100sc.php", "https://www.hamqsl.com/solarpich.php"]
 ];
 
