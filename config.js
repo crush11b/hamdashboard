@@ -38,7 +38,7 @@ const aIMG = [
   ["", "https://www.wpc.ncep.noaa.gov/basicwx/day0-7loop.html"], 
   ["LIGHTNING", "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa"],
   ["Kp Index Forecast", "https://spaceweather.gfz-potsdam.de/fileadmin/Kp-Forecast/KP_ENSEMBLE_LAST_PAGER_SWIFT.png"],
-  ["", "https://waterwatch.usgs.gov/wwapps/ww_chart.php?i=ahps&vt=uv&site_no=02026000", "https://waterwatch.usgs.gov/wwapps/ww_chart.php?i=ahps&vt=uv&site_no=02029000", "https://waterwatch.usgs.gov/wwapps/ww_chart.php?i=ahps&vt=uv&site_no=02035000", "https://waterwatch.usgs.gov/wwapps/ww_chart.php?i=ahps&vt=uv&site_no=02037500"],
+  ["", "https://waterwatch.usgs.gov/wwapps/ww_chart.php?i=ahps&vt=uv&site_no=02026000", "https://waterwatch.usgs.gov/wwapps/ww_chart.php?i=ahps&vt=uv&site_no=02029000", "https://waterwatch.usgs.gov/wwapps/ww_chart.php?i=ahps&vt=uv&site_no=02035000", "https://waterwatch.usgs.gov/wwapps/ww_chart.php?i=ahps&vt=uv&site_no=02037500"], 
   ["HF PROPAGATION", "https://www.hamqsl.com/solar101vhf.php", "https://www.hamqsl.com/solar100sc.php", "https://www.hamqsl.com/solarpich.php"]
 ];
 
