@@ -22,7 +22,7 @@ const aURL = [
   ["2196F3", "Outlook", "https://www.weather.gov/media/akq/briefings/LatestBriefing.pdf", "1", "R"], // Added missing comma here
   ["2196F3", "RADAR", "https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOm51bGwsImNlbnRlciI6Wy05Ni42ODMsMzguMDIxXSwibG9jYXRpb24iOm51bGwsInpvb20iOjUuNDE5MTY1MzQ1MTU0NDQ3fSwiYW5pbWF0aW5nIjpmYWxzZSwiYmFzZSI6InN0YW5kYXJkIiwiYXJ0Y2MiOmZhbHNlLCJjb3VudHkiOmZhbHNlLCJjd2EiOmZhbHNlLCJyZmMiOmZhbHNlLCJzdGF0ZSI6ZmFsc2UsIm1lbnUiOnRydWUsInNob3J0RnVzZWRPbmx5IjpmYWxzZSwib3BhY2l0eSI6eyJhbGVydHMiOjAuOCwibG9jYWwiOjAuNiwibG9jYWxTdGF0aW9ucyI6MC44LCJuYXRpb25hbCI6MC42fX0%3D", "1", "R"],
   ["2196F3", "WEATHER", "https://ambientweather.net/dashboard/bea6b10a09ad231317312d829b55f271", "1", "R"],
-  ["2196F3", "WINDS", "https://www.ventusky.com/?p=37.84;-78.63;7&l=wind-10m", "1", "R"],
+  ["2196F3", "WINDS", "https://www.ventusky.com/?p=37.84;-78.63;7&l=wind-10m", "1", "R"],  
 ];
 
 // Dashboard items
