@@ -41,6 +41,5 @@ const aIMG = [
   ["", "https://waterwatch.usgs.gov/wwapps/ww_chart.php?i=ahps&vt=uv&site_no=02026000", "https://waterwatch.usgs.gov/wwapps/ww_chart.php?i=ahps&vt=uv&site_no=02029000", "https://waterwatch.usgs.gov/wwapps/ww_chart.php?i=ahps&vt=uv&site_no=02035000", "https://waterwatch.usgs.gov/wwapps/ww_chart.php?i=ahps&vt=uv&site_no=02037500"], 
   ["HF PROPAGATION", "https://www.hamqsl.com/solar101vhf.php", "https://www.hamqsl.com/solar100sc.php", "https://www.hamqsl.com/solarpich.php"]
 ];
-
 // Image rotation intervals in milliseconds per tile
 const tileDelay = [11200, 10000, 11000, 10100, 10200, 10500, 10300, 10600, 30400, 60700, 60900, 10800];
