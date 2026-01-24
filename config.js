@@ -1,114 +1,244 @@
-const disableSetup = false;
-const disableLdCfg = false;
-var topBarCenterText = `VA3HDL - FN04ga`;
+// CUT START
+var disableSetup = false; // Manually set to true to disable setup page menu option
+var topBarCenterText = "KQ4EVK - FM17gj";
 
-// Grid layout
+// Grid layout desired
 var layout_cols = 4;
 var layout_rows = 3;
 
 // Menu items
-// Structure is as follows HTML Color code, Option, target URL, scaling 1=Original Size, side (optional, nothing is Left, "R" is Right)
+// Structure is as follows: HTML Color code, Option, target URL, scaling 1=Original Size, side (optional, nothing is Left, "R" is Right)
 // The values are [color code, menu text, target link, scale factor, side],
 // add new lines following the structure for extra menu options. The comma at the end is important!
 var aURL = [
-  ["f3de21ff", "SATS", "satellite.js"],
-  
-  ["2196F3", "CLUBLOG", "https://clublog.org/livestream/VA3HDL", "1.7"],
   [
-    "2196F3",
-    "CONTEST",
-    "https://www.contestcalendar.com/fivewkcal.html",
-    "1",
-  ],
-  ["2196F3", "DX CLUSTER", "https://dxcluster.ha8tks.hu/map/", "1"],
-  [
-    "2196F3",
-    "LIGHTNING",
-    "https://map.blitzortung.org/#3.87/36.5/-89.41",
-    "1",
-    "R",
-  ],
-  ["2196F3", "PISTAR", "http://pi-star.local/", "1.2"],
-  [
-    "2196F3",
-    "RADAR",
-    "https://weather.gc.ca/?layers=alert,radar&center=43.39961001,-78.53212031&zoom=6&alertTableFilterProv=ON",
+    "FF0000",
+    "Load Cfg",
+    "",
     "1",
     "R"
   ],
-  ["2196F3", "TIME.IS", "https://time.is/", "1", "R"],
   [
-    "2196F3",
+    "#2196f3",
+    "CLUBLOG",
+    "https://clublog.org/livestream/KQ4EVK",
+    1,
+    "undefined"
+  ],
+  [
+    "#2196f3",
+    "CONTEST",
+    "https://www.contestcalendar.com/fivewkcal.html",
+    1,
+    "undefined"
+  ],
+  [
+    "#2196f3",
+    "DX CLUSTER",
+    "https://dxcluster.ha8tks.hu/map/",
+    1,
+    "undefined"
+  ],
+  [
+    "#2196f3",
+    "ISS Passes",
+    "https://www.heavens-above.com/PassSummary.aspx?satid=25544&lat=37.4083&lng=-77.4591&loc=Unnamed&alt=0&tz=EST",
+    1,
+    "undefined"
+  ],
+  [
+    "#2196f3",
+    "Solar Conditions",
+    "https://solar.w5mmw.net/",
+    1,
+    "undefined"
+  ],
+  [
+    "#2196f3",
+    "PSK Reporter",
+    "https://pskreporter.info/pskmap.html?preset&callsign=kq4evk&txrx=tx&timerange=900&distunit=miles&hideunrec=1&blankifnone=1&hidenight=1&showsnr=1&showlines=1&mapCenter=21.142679151889794,-38.46416127021992,3.56797574036891",
+    1,
+    "undefined"
+  ],
+  [
+    "#2196f3",
+    "APRS",
+    "https://aprs.to/?center=37.4465,-77.4883&zoom=11",
+    1,
+    "undefined"
+  ],
+  [
+    "#2196f3",
+    "Hamclock",
+    "http://192.168.0.104:8081/live.html",
+    1,
+    "undefined"
+  ],
+  [
+    "#2196f3",
+    "POTA",
+    "https://pota.app/#/",
+    1,
+    "undefined"
+  ],
+  [
+    "#2196f3",
+    "SOTA",
+    "https://sotawatch.sota.org.uk/en/1",
+    1,
+    "undefined"
+  ],
+  [
+    "#2196f3",
+    "Band Plan",
+    "https://kd4atw.org/wp-content/uploads/2012/05/band_plan.png",
+    1,
+    "1"
+  ],
+  [
+    "#2196f3",
+    "LIGHTNING",
+    "https://map.blitzortung.org/#6.89/37.412/-78.706",
+    1,
+    "R"
+  ],
+  [
+    "#2196f3",
+    "TIME.IS",
+    "https://time.is/",
+    1,
+    "R"
+  ],
+  [
+    "#2196f3",
+    "Outlook",
+    "https://www.weather.gov/media/akq/briefings/LatestBriefing.pdf",
+    1,
+    "R"
+  ],
+  [
+    "#2196f3",
+    "RADAR",
+    "https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOm51bGwsImNlbnRlciI6Wy05Ni42ODMsMzguMDIxXSwibG9jYXRpb24iOm51bGwsInpvb20iOjUuNDE5MTY1MzQ1MTU0NDQ3fSwiYW5pbWF0aW5nIjpmYWxzZSwiYmFzZSI6InN0YW5kYXJkIiwiYXJ0Y2MiOmZhbHNlLCJjb3VudHkiOmZhbHNlLCJjd2EiOmZhbHNlLCJyZmMiOmZhbHNlLCJzdGF0ZSI6ZmFsc2UsIm1lbnUiOnRydWUsInNob3J0RnVzZWRPbmx5IjpmYWxzZSwib3BhY2l0eSI6eyJhbGVydHMiOjAuOCwibG9jYWwiOjAuNiwibG9jYWxTdGF0aW9ucyI6MC44LCJuYXRpb25hbCI6MC42fX0%3D",
+    1,
+    "R"
+  ],
+  [
+    "#2196f3",
     "WEATHER",
-    "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=44.0157&lon=-79.4591&zoom=5",
-    "1",
-    "R",
+    "https://ambientweather.net/dashboard/bea6b10a09ad231317312d829b55f271",
+    1,
+    "R"
   ],
   [
-    "2196F3",
+    "#2196f3",
     "WINDS",
-    "https://earth.nullschool.net/#current/wind/surface/level/orthographic=-78.79,44.09,3000",
-    "1",
-    "R",
-  ],
+    "https://www.ventusky.com/?p=37.84;-78.63;7&l=wind-10m",
+    1,
+    "R"
+  ]
 ];
 
-// Dashboard items
-// Structure is Title, Image Source URL
-// [Title, Image Source URL],
+// Feed items
+// Structure is as follows: target URL
+// The values are [target link]
+var aRSS = [
+  [
+    "https://www.amsat.org/feed/",
+    60
+  ],
+  [
+    "https://daily.hamweekly.com/atom.xml",
+    120
+  ]
+];
+
+// Dashboard Tiles items
+// Tile Structure is Title, Source URL
+// To display a website on the tiles use "iframe|" keyword before the tile URL
+// [Title, Source URL],
 // the comma at the end is important!
-// You can't add more items because there are only 12 placeholders on the dashboard
-// but you can replace the titles and the images with anything you want.
 var aIMG = [
-  ["RADAR", "https://radar.weather.gov/ridge/standard/CONUS_loop.gif"],
   [
-    "LOCAL RADAR",
-    "https://radar.weather.gov/ridge/standard/KNQA_loop.gif",
+    "",
+    "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/CONUS/EXTENT3/GOES16-CONUS-EXTENT3-625x375.gif"
   ],
   [
-    "NOAA D-RAP",
-    "https://services.swpc.noaa.gov/images/animations/d-rap/global/d-rap/latest.png",
+    "",
+    "https://radar.weather.gov/ridge/standard/CONUS_loop.gif"
   ],
   [
-    "ISS POSITION",
-    "https://www.heavens-above.com/orbitdisplay.aspx?icon=iss&width=600&height=300&mode=M&satid=25544",
+    "",
+    "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/cgl/EXTENT3/GOES16-CGL-EXTENT3-600x600.gif"
   ],
   [
-    "SATELLITE CAN",
-    "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/can/EXTENT3/GOES16-CAN-EXTENT3-1125x560.gif",
+    "",
+    "https://radar.weather.gov/ridge/standard/KAKQ_loop.gif"
   ],
   [
-    "SATELLITE CGL",
-    "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/cgl/EXTENT3/GOES16-CGL-EXTENT3-600x600.gif",
+    "",
+    "https://www.wpc.ncep.noaa.gov//noaa/noaa.gif",
+    "http://origin.wpc.ncep.noaa.gov/basicwx/allfcsts_loop_ndfd.gif"
+  ],
+  [
+    "",
+    "https://www.weather.gov/images/akq/ghwo/ExcessiveRainfallDay1.jpg",
+    "https://www.weather.gov/images/akq/ghwo/WindDay1.jpg",
+    "https://www.weather.gov/images/akq/ghwo/FireWeatherDay1.jpg",
+    "https://www.weather.gov/images/akq/ghwo/FrostFreezeDay1.jpg",
+    "https://www.weather.gov/images/akq/ghwo/FogDay1.jpg",
+    "https://www.weather.gov/images/akq/ghwo/SnowSleetDay1.jpg",
+    "https://www.weather.gov/images/akq/ghwo/ExcessiveColdDay1.jpg"
+  ],
+  [
+    "",
+    "https://www.weather.gov/images/akq/ghwo/SevereThunderstormsDay2.jpg",
+    "https://www.weather.gov/images/akq/ghwo/ExcessiveRainfallDay2.jpg",
+    "https://www.weather.gov/images/akq/ghwo/WindDay2.jpg",
+    "https://www.weather.gov/images/akq/ghwo/FireWeatherDay2.jpg",
+    "https://www.weather.gov/images/akq/ghwo/FrostFreezeDay2.jpg",
+    "https://www.weather.gov/images/akq/ghwo/FogDay2.jpg",
+    "https://www.weather.gov/images/akq/ghwo/SnowSleetDay2.jpg",
+    "https://www.weather.gov/images/akq/ghwo/ExcessiveColdDay2.jpg"
+  ],
+  [
+    "",
+    "https://www.wpc.ncep.noaa.gov/Prob_Precip/idss-map/mapgen.php?office=AKQ&ptype=prob_sn&summary=true&state=VA&pointpreferences=VA&product=expected&2024121123"
   ],
   [
     "LIGHTNING",
-    "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa",
+    "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa"
   ],
   [
-    "LIGHTNING LOCAL",
-    "https://www.blitzortung.org/en/Images/image_b_ny.png",
+    "Kp Index Forecast",
+    "https://spaceweather.gfz-potsdam.de/fileadmin/Kp-Forecast/KP_ENSEMBLE_LAST_PAGER_SWIFT.png"
   ],
-  ["YOUTUBE EXAMPLE", "iframe|https://www.youtube.com/embed/fzPFaXAV_2Y?autoplay=1&mute=1"],
   [
-    "WEBSITE EXAMPLE",
-    "iframe|https://globe.adsbexchange.com/?airport=YYZ",
+    "MUF",
+    "https://prop.kc2g.com/renders/current/mufd-normal-now.svg"
   ],
-  ["VIDEO EXAMPLE", "https://himawari8.nict.go.jp/movie/720/20240611_pifd.mp4"],
-  ["HF PROPAGATION",
-    "https://www.hamqsl.com/solar101vhf.php"],
+  [
+    "HF PROPAGATION",
+    "https://www.hamqsl.com/solar101vhf.php",
+    "https://www.hamqsl.com/solar100sc.php",
+    "https://www.hamqsl.com/solarpich.php"
+  ]
 ];
 
-// Image rotation intervals in milliseconds per tile - If the line below is commented, all tiles will be rotated every 30000 milliseconds (30s)
+// Image rotation intervals in milliseconds per tile - If the line below is commented, tiles will be rotated every 5000 milliseconds (5s)
 var tileDelay = [
-  11200,10000,11000,10100,
-  10200,10500,10300,10600,
-  30400,60700,60900,10800
+  11200,
+  10000,
+  11000,
+  10100,
+  10200,
+  10500,
+  10300,
+  10600,
+  30400,
+  60700,
+  60900,
+  10800
 ];
 
-// RSS feed items
-// Structure is [feed URL, refresh interval in minutes]
-var aRSS = [
-  ["https://www.amsat.org/feed/", 60],           // Example RSS feed, refresh every 60 minutes
-  ["https://daily.hamweekly.com/atom.xml", 120], // Example Atom feed, refresh every 120 minutes
-  ];
+// CUT END
