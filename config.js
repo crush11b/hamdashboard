@@ -12,10 +12,10 @@ var layout_rows = 3;
 // add new lines following the structure for extra menu options. The comma at the end is important!
 var aURL = [
   [
-    "FF0000",
+    "#ff0000",
     "Load Cfg",
     "",
-    "1",
+    1,
     "R"
   ],
   [
